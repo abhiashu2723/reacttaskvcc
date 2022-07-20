@@ -28,7 +28,7 @@ export default function Manufacturing() {
           </div>
 
           <div className="manu-img">
-            <img src="./Images/Manufacturing.png" alt="images" />
+            <img src="./images/Manufacturing.png" alt="images" />
           </div>
           
         </div>
@@ -39,7 +39,7 @@ export default function Manufacturing() {
 
         <div className="card ">
           <div className="card-content card-content-responsive">
-            <img src="./Images/Economy.png" alt="images" />
+            <img src="./images/Economy.png" alt="images" />
             <h5>Economy</h5>
             <p>
               Indian shares snap 5-day rally on weak global cues, post weekly
@@ -52,7 +52,7 @@ export default function Manufacturing() {
           </div>
 
           <div className="card-content ">
-            <img src="./Images/Finance.png" alt="images" />
+            <img src="./images/Finance.png" alt="images" />
             <h5>Finance</h5>
             <p>
               Paytm to shut Canada B2C app amid eroding market capitalisation
@@ -63,7 +63,7 @@ export default function Manufacturing() {
             </p>
           </div>
           <div className="card-content">
-            <img src="./Images/consumer.png" alt="images" />
+            <img src="./images/consumer.png" alt="images" />
             <h5>Consumer</h5>
             <p>
               Exclusive: PE-backed sauce maker Wingreens acquires Lok
@@ -75,7 +75,7 @@ export default function Manufacturing() {
             </p>
           </div>
           <div className="card-content">
-            <img src="./Images/Economy1.png" alt="images" />
+            <img src="./images/Economy1.png" alt="images" />
             <h5>Economy</h5>
             <p>
               GLOBAL MARKETS-European shares in the red after hawkish Fed
@@ -89,7 +89,7 @@ export default function Manufacturing() {
         </div>
         <div className="card-editior-responsive">
           <div className="editior-responsive1">
-            <img src="./Images/Economy.png" alt="images" />
+            <img src="./images/Economy.png" alt="images" />
           </div>
           <div className="editior-responsive">
             <h5>Economy</h5>
@@ -105,7 +105,7 @@ export default function Manufacturing() {
         </div>
         <div className="card-editior-responsive">
           <div className="editior-responsive1">
-            <img src="./Images/Finance.png" alt="images" />
+            <img src="./images/Finance.png" alt="images" />
           </div>
           <div className="editior-responsive">
             <h5>Finance</h5>
@@ -120,7 +120,7 @@ export default function Manufacturing() {
         </div>
         <div className="card-editior-responsive">
           <div className="editior-responsive1">
-            <img src="./Images/consumer.png" alt="images" />
+            <img src="./images/consumer.png" alt="images" />
           </div>
           <div className="editior-responsive">
             <h5>Consumer</h5>
@@ -136,7 +136,7 @@ export default function Manufacturing() {
         </div>
         <div className="card-editior-responsive">
           <div className="editior-responsive1">
-            <img src="./Images/Economy1.png" alt="images" />
+            <img src="./images/Economy1.png" alt="images" />
           </div>
           <div className="editior-responsive">
             <h5>Economy</h5>
