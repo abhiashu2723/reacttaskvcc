@@ -63,7 +63,7 @@ export default function Manufacturing() {
             </p>
           </div>
           <div className="card-content">
-            <img src="./images/consumer.png" alt="images" />
+            <img src="./images/Consumer.png" alt="images" />
             <h5>Consumer</h5>
             <p>
               Exclusive: PE-backed sauce maker Wingreens acquires Lok
