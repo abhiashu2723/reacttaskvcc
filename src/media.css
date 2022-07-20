@@ -329,6 +329,7 @@
 @media only screen and (min-width: 360px) and (max-width: 440px) {
   .money-responsive {
     margin: auto;
+    font-size: 13px;
   }
 }
 
@@ -415,6 +416,22 @@
     }
  }
  @media only screen and (min-width: 360px) and (max-width: 778px){
+  .finance-para span{
+    font-size: 10px;
+
+  }
+  .tmt-para span{
+    font-size: 10px;
+
+  }
+  .consumer-para span{
+    font-size: 10px;
+
+  }
+  .lower2 h3{
+    font-size: 12px;
+    
+  }
     .navbar-box-res{
         box-shadow: 0px 2px 4px #0000001A;
         position: fixed;
@@ -452,6 +469,7 @@
 
     .editior-responsive p {
         margin: auto;
+        font-size: 15px;
     }
     .editior-responsive1 {
        margin-bottom: 20px;
