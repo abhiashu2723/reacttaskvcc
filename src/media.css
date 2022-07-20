@@ -130,6 +130,9 @@
 }
 
 @media only screen and (min-width: 360px) and (max-width: 778px) {
+  .storie-img-res img{
+    width: 100%;
+  }
   .container {
     margin: auto;
   }
@@ -213,7 +216,7 @@
   }
   
   .finance-section1 p {
-    font-size: 16px;
+    font-size: 14px;
     width: auto;
   }
   .middle-section{
@@ -275,8 +278,8 @@
         margin-left:10px ;
       }
       .sudhir-res{
-        margin-left: 50px;
-        margin-right: 80px;
+        margin-left: 20px;
+        margin-right: 0px;
       }
 }
 @media only screen and (min-width: 624px) and (max-width: 768px) {
@@ -409,7 +412,7 @@
     }
  }
  @media only screen and (min-width: 360px) and (max-width: 778px){
-    .navbar_box-res{
+    .navbar-box-res{
         box-shadow: 0px 2px 4px #0000001A;
         position: fixed;
           width: 100%;
@@ -456,14 +459,20 @@
      .stories-res{
         display: none;
      }
-     .sudhir-res{
-        margin-left: 50px;
-        margin-right: 80px;
-      }
+     
+ }
+ @media only screen and (min-width:401px) and (max-width:778px){
+  .sudhir-res{
+    margin-left: 50px;
+    margin-right: 80px;
+  }
  }
     
  
  @media only screen and (min-width:360px) and (max-width:778px){
+  .manu_body h1{
+    font-size: 16px;
+  }
    .nav-logo{
     display: none;
    }
@@ -536,5 +545,10 @@
         margin-bottom: 10px;
       }
     } 
+    @media only screen and (min-width: 360px) and (max-width: 400px){
+      .vcctv-lower{
+        margin-left: 1px;
+      }
+    }
  
 

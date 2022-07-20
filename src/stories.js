@@ -10,7 +10,7 @@ export default function Stories() {
           <div className="stories stories-responsive">
             <div>
               <div className="stories1">
-                <div>
+                <div className="storie-img-res">
                   <img src="./images/Mask Group 24.png" alt="" />
                 </div>
                 <div className="money">
@@ -26,7 +26,7 @@ export default function Stories() {
                 </div>
               </div>
               <div className="stories1">
-                <div>
+                <div className="storie-img-res">
                   <img src="./images/1.png" alt="" />
                 </div>
                 <div className="money">
@@ -42,7 +42,7 @@ export default function Stories() {
                 </div>
               </div>
               <div className="stories1">
-                <div>
+                <div className="storie-img-res">
                   <img src="./images/5.png" alt="" />
                 </div>
                 <div className="money">
@@ -60,8 +60,8 @@ export default function Stories() {
             </div>
             <div className="stories-left">
               <div className="stories1">
-                <div>
-                  <img src="./images/2.PNG" alt="" />
+                <div className="storie-img-res">
+                  <img src="./images/2.png" alt="" />
                 </div>
                 <div className="money">
                   <h5>ECONOMY</h5>
@@ -76,7 +76,7 @@ export default function Stories() {
                 </div>
               </div>
               <div className="stories1">
-                <div>
+                <div className="storie-img-res">
                   <img src="./images/3.png" alt="" />
                 </div>
                 <div className="money">
@@ -92,7 +92,7 @@ export default function Stories() {
                 </div>
               </div>
               <div className="stories1">
-                <div>
+                <div className="storie-img-res">
                   <img src="./images/4.png" alt="" />
                 </div>
                 <div className="money">

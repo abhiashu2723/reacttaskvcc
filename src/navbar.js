@@ -52,7 +52,7 @@ export default function Navbar() {
                       </li>
                       <li className="hum-res-li hum-menu">
                         <img
-                          src="./Images/crown.png"
+                          src="./images/crown.png"
                           alt="glass-icon"
                           className="nav-img menu-nav-img"
                         />
@@ -66,7 +66,7 @@ export default function Navbar() {
                       <li className="hum-nav-li">
                         Industry
                         <img
-                          src="./Images/drop-arrow.png"
+                          src="./images/drop-arrow.png"
                           alt="dropdwon"
                           className="nav-drop-img"
                         />

@@ -120,7 +120,7 @@ export default function Manufacturing() {
         </div>
         <div className="card-editior-responsive">
           <div className="editior-responsive1">
-            <img src="./images/consumer.png" alt="images" />
+            <img src="./images/Consumer.png" alt="images" />
           </div>
           <div className="editior-responsive">
             <h5>Consumer</h5>
