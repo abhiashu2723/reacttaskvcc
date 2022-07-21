@@ -40,7 +40,7 @@ export default function Vcctv() {
               partnerships can harness the data to tackle the issues faced by
               the sector?
             </p>
-            <p>
+            <p className="text-color">
               <span>30 september</span>
               <span>Madhiruma Nandy</span>
             </p>
