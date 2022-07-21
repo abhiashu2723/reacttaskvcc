@@ -11,6 +11,10 @@
     height: auto;
     box-shadow: 0px 2px 10px;
     /* margin-left: -5px; */
+}
+.manu_body h3{
+  color:#096FFA ;
+
 } 
 .container{
   margin-left: 142px;
