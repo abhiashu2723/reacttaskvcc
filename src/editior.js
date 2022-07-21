@@ -9,7 +9,7 @@ export default function Editior(props) {
           <img src={props.img} alt="images" />
           <h5>{props.name}</h5>
           <p>{props.para}</p>
-          <p>
+          <p className="editior-author">
             <span>{props.author}</span>
             <span>{props.description}</span>
           </p>
