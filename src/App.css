@@ -206,7 +206,13 @@
   color: #096FFA;
 }
 .finance-para span{
-  margin-top:0px;
+  color:#989a9b  ;
+}
+.tmt-para span{
+  color:#989a9b  ;
+}
+.consumer-para span{
+  color:#989a9b  ;
 }
 /* tmt section */
 .tmt-section{
