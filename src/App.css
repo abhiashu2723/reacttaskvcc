@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body{
+  margin: 0;
+}
 .navbar_box{
   box-shadow: 0px 2px 4px #0000001A;
   /* position: fixed;
@@ -319,6 +322,7 @@
  }
  .footer-copy{
   color: #F0F0F0;
+  margin-bottom: 0px;
  }
  
  /* input */
