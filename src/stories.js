@@ -24,7 +24,9 @@ export default function Stories(props) {
               title={value.title}
               imgdiv="storiesimgdiv"
               author={value.author_details[0].name}
+              publish={value.publish}
               authorapi="sliderauthor"
+              publishapi="sliderauthor"
               />)
           })}
 

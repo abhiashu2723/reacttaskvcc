@@ -65,7 +65,9 @@ function Maincards(props) {
               title={value.title}
               contentapi="kotak"
               author={value.author_details[0].name}
+              publish={value.publish}
               authorapi="sliderauthor"
+              publishapi="sliderauthor"
               // name={value.industry_details[0].name}
               />
               {/* </div> */}

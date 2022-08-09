@@ -1,4 +1,5 @@
 import React from "react";
+import moment from "moment";
 
 export default function Cardapi(props) {
   return (
@@ -13,6 +14,7 @@ export default function Cardapi(props) {
           <h3>{props.heading}</h3>
         <h4>{props.name}</h4>
         <p className={props.contentapi}>{props.title}</p>
+        <span className={props.publishapi}>{moment(props.publish).format("Do MMM YYYY")}</span>
         <span className={props.authorapi}>{props.author}</span>
         </div>
         

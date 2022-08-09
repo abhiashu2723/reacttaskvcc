@@ -32,6 +32,7 @@
 @media only screen and (min-width: 360px) and (max-width: 969px) {
   .responsive-input {
     flex-wrap: wrap;
+    margin-top: 23px;
   }
   .responsive-email {
     padding: 0px;
@@ -100,6 +101,7 @@
   }
   .card-content {
     width: 34%;
+    margin-bottom: 36px;
   }
   .vcctv-lower {
     flex-wrap: wrap;
@@ -259,7 +261,7 @@
   }
   
   .finance-section1 p {
-    font-size: 14px;
+    font-size: 3vw;
     width: auto;
   }
   .middle-section{
@@ -484,7 +486,7 @@
 
   }
   .lower2 h3{
-    font-size: 12px;
+    font-size: 15px;
     
   }
     .navbar-box-res{
@@ -648,7 +650,10 @@
         width: 340px !important;
       }
     }
- 
- 
- 
 
+    @media only screen and (min-width: 360px) and (max-width: 449px){
+      .card-content{
+        margin-bottom: 36px;
+      }
+    }
+  

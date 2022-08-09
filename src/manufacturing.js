@@ -60,8 +60,10 @@ export default function Manufacturing(props) {
               bdrradius="zomato"
               title={value.title}
               name={value.industry_details[0].name}
+              // publish={value.author_detail[0].name}
               author={value.author_details[0].name}
               authorapi="sliderauthor"
+              publishapi="sliderauthor"
               />
             )
             
