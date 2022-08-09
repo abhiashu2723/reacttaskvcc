@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function Vcctv() {
+export default function Vcctv(props) {
   return (
-    <div className="container">
+    <div className="container" key={props.value.stories_list[0].feid}>
       <div className="vcctv-container">
         <div className="vcctv-upper">
           <div>
-            <h3>VCCTV</h3>
+            <h3>{props.value.section_name}</h3>
           </div>
           <div>
             <span>View More</span>
@@ -29,8 +29,9 @@ export default function Vcctv() {
           <div className="vcctv-left">
             <h5>HEALTHCARE</h5>
             <h3>
-              How can we harness data for healthcare and safegaurd ourselves
-              from cyber threats?
+              {/* How can we harness data for healthcare and safegaurd ourselves
+              from cyber threats? */}
+              {props.value.stories_list[0].title}
             </h3>
             <p>
               The global healthcare data is expected to grow at a CAGR of 36% by

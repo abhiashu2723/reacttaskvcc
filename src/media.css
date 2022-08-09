@@ -113,14 +113,12 @@
     margin-left: 0px;
   }
 }
-@media only screen and (min-width: 360px) and (max-width: 1448px) {
+@media only screen and (min-width: 1201px) and (max-width: 1448px) {
   .finance-section1 p {
     width: 100%;
     font-size: 1vw;
   }
-  .editor-section {
-    flex-wrap: wrap;
-  }
+  
   .section {
     width: 100%;
   }
@@ -128,8 +126,49 @@
     width: 100%;
   }
 }
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  
+  .editor-section {
+    flex-wrap: wrap;
+  }
+  .finance-section1 p {
+    width: 100%;
+    font-size: 1.5vw;
+  }
+  .section {
+    width: 100%;
+  }
+  .middle-section {
+    width: 100%;
+   
+  }
+  .finance-section1{
+    margin-left: 20px;
+  }
+  
+}
+@media only screen and (min-width: 360px) and (max-width: 766px) {
+  
+  .editor-section {
+    flex-wrap: wrap;
+  }
+  .finance-section1 p {
+    width: 100%;
+    font-size: 1.5vw;
+  }
+  .section {
+    width: 100%;
+  }
+  .middle-section {
+    width: 100%;
+   
+  }
+ 
+  
+}
 
-@media only screen and (min-width: 360px) and (max-width: 778px) {
+
+@media only screen and (min-width: 350px) and (max-width: 778px) {
   .storie-img-res img{
     width: 100%;
   }
@@ -154,7 +193,7 @@
     justify-content: center;
   }
   .card-content {
-    display: none;
+    /* display: none; */
     width: 100%;
   }
   .card-content-crausol {
@@ -216,7 +255,7 @@
     width: auto;
   }
   .section {
-    margin-left:90px ;
+    /* margin-left:90px ; */
   }
   
   .finance-section1 p {
@@ -239,7 +278,7 @@
         margin-left: 30px;
       } 
       .section {
-        margin-left:50px ;
+        /* margin-left:50px ; */
       }
       .sudhir-res{
       margin-left: 94px;
@@ -264,12 +303,19 @@
         margin-left: 15px;
       } 
       .section {
-        margin-left:30px ;
+        /* margin-left:30px ; */
       }
       .sudhir-res{
         margin-left: 80px;
         margin-right: 100px;
       }
+}
+@media only screen and (min-width: 300px) and (max-width: 550px){
+  .contentapistory p{
+    width: 100%;
+    font-size: 3vw;
+
+  }
 }
 @media only screen and (min-width: 300px) and (max-width: 400px){
     .middle-section{
@@ -581,5 +627,28 @@
         margin-left: 1px;
       }
     }
+
+    @media only screen and (min-width: 1000px) and (max-width: 1400px){
+      .swiper-slide{
+        width: 300px !important;
+      }
+    }
+ @media only screen and (min-width: 765px) and (max-width: 999px){
+      .swiper-slide{
+        width: 250px !important;
+      }
+    }
+    @media only screen and (min-width: 450px) and (max-width: 764px){
+      .swiper-slide{
+        width: 278px !important;
+      }
+    }
+    @media only screen and (min-width: 360px) and (max-width: 449px){
+      .swiper-slide{
+        width: 340px !important;
+      }
+    }
+ 
+ 
  
 

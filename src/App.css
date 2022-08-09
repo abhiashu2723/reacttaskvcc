@@ -107,6 +107,7 @@ body{
 
 
 
+
 /* manufacturing */
 .manu_main{
   display: flex;
@@ -115,7 +116,7 @@ body{
 
 }
 .manu_body{
-  width: 44%;
+  width: 50%;
 }
 .text-color{
   color:#798692;
@@ -133,11 +134,31 @@ body{
 }
 .manu_body h1{
   margin: 10px 10px;
+  
 }
 .manu_body p{
-  margin: 10px 10px;
+  margin: 27px 10px;
+  font-size: 19px;
 }
-
+.zomato{
+  width: 280px;
+  border-radius: 8px;
+}
+.zomato1{
+  width: 250px;
+  border-radius: 8px;
+}
+.kotak{
+  width: 78%;
+}
+/* .card-content-crausal{
+  background: var(--color-brand-slider-card);
+  border: 1px solid var(--color-brand-slider-card-border);
+} */
+.electriccar{
+  width:600px;
+  border-radius: 20px;
+}
 
 
 
@@ -151,13 +172,15 @@ body{
 .card-content{
   width:22%;
 }
-.card h5{
+.card h4{
   color: #096FFA;
+  margin-top: 5px;
 
 }
 .card p{
-  width:80%;
+  width:100%;
   /* margin: 0px 0px; */
+  font-size: 18px;
 }
 .text-span{
   color:#798692;
@@ -180,29 +203,41 @@ body{
 .section{
   width:33%
 }
-.section h5{
+.section h4{
   color:#096FFA;
+  margin-top: 5px;
 }
 .middle-section{
   width: 33%;
   margin-left: 40px;
 }
+.section1{
+  width:25%;
+}
+.swiper-button-prev:after,.swiper-button-next{
+  background-color:blue;
+  padding: 0px 8px;
+  border-radius: 15px;
+}
 
 .section p{
-  width: 83%;
-  font-size: 15px;
+  width: 100%;
+  font-size: 21px;
 }
 .finance-section1{
-  margin-left: 13px;
+  margin-left: 10px;
+  width: 50%;
 }
 .finance-section{
   display: flex;
   margin-top: 70px;
+  width: 100%;
 }
 
 .finance-section1 p{
-  width:77%;
+  /* width:333%; */
   margin: 5px 5px;
+  font-size: 16px;
 }
 .finance-section1 h4{
   margin: 0px 0px;
@@ -233,6 +268,16 @@ body{
   margin-top: 28px;
   margin-bottom:52px ;
 }
+.editiorapi{
+  width: 100%;
+  border-radius: 9px;
+}
+
+.swiggy{
+  width: 105%;
+  border-radius: 9px;
+}
+
 
 /* sudhi section */
 .left-section h5{
@@ -278,10 +323,40 @@ body{
 /* stories */
 .stories{
   display: flex;
+  flex-wrap: wrap;
+ 
+}
+.contentapistory{
+  width: 352px;
+  margin-left: 10px;
+}
+
+.contentapistory p{
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+.contentapistory h4{
+  margin-top: -19px;
+  margin-bottom: 12px;
+  color: blue;
+}
+
+
+
+
+.storiesimg{
+  width: 100%;
+  border-radius: 8px;
+}
+.storiesimgdiv{
+  width:200px;
 }
 .stories1{
   display: flex;
   margin: 8px;
+ 
 }
 .stories-top{
   margin-top: 40px;
@@ -599,7 +674,19 @@ body{
 .swiper-crausal{
   height: 163px;
 }
+.sliderauthor{
+  font-size: 13px;
+  color: #989a9b;
+}
 
+/* card */
+/* .apiflex{
+  display: flex;
+}
+.cardcomponent{
+  width: 25%;
+  background-color: orange;
 
+} */
 
 

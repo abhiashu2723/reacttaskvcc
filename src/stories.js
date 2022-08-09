@@ -1,15 +1,36 @@
 import React from "react";
-import Advertisement from "./advertisement";
+// import Advertisement from "./advertisement";
+import Cardapi from "./cardapi";
 
-export default function Stories() {
+
+export default function Stories(props) {
+  // {console.log(props.value.stories_list)}
   return (
     <>
-      <div className="container container-responsive-stories">
+      <div className="container container-responsive-stories"  key={props.value.stories_list[0].feid}>
         <div className="stories-top">
-          <h2>More Stories</h2>
+          <h2>{props.value.section_name}</h2>
           <div className="stories stories-responsive">
-            <div>
-              <div className="stories1">
+          {/* <div className="stories1"> */}
+          {props.value.stories_list.map((value,index) => {
+              return(
+          <Cardapi 
+              storiesapi="stories1"
+              // heading={value.section_name}
+              img={value.file_url}
+              bdrradius="storiesimg"
+              contentapi="contentapistory"
+              name={value.industry_details[0].name}
+              title={value.title}
+              imgdiv="storiesimgdiv"
+              author={value.author_details[0].name}
+              authorapi="sliderauthor"
+              />)
+          })}
+
+            
+              {/* <div className="stories1">
+             
                 <div className="storie-img-res">
                   <img src="./images/Mask Group 24.png" alt="" />
                 </div>
@@ -39,9 +60,9 @@ export default function Stories() {
                     <span>30 sept</span>
                     <span>Madhiruma Nandy</span>
                   </p>
-                </div>
-              </div>
-              <div className="stories1">
+                </div>*/}
+              </div>  
+              {/* <div className="stories1">
                 <div className="storie-img-res">
                   <img src="./images/5.png" alt="" />
                 </div>
@@ -106,13 +127,12 @@ export default function Stories() {
                     <span>Madhiruma Nandy</span>
                   </p>
                 </div>
-              </div>
-            </div>
-          </div>
+              </div> */}
+          {/* </div> */}
         </div>
       </div>
-      <Advertisement image="./images/advertisenment.png" width="100%" />
-      <div className="stories-res">
+      {/* <Advertisement image="./images/advertisenment.png" width="100%" /> */}
+      {/* <div className="stories-res">
         <div className="container container-responsive-stories">
           <div className="stories-top">
             <div className="stories stories-responsive">
@@ -219,11 +239,13 @@ export default function Stories() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <footer></footer> */}
 
-      <div>
+     
+
+      {/* <div>
         <div className="footer footer-responsive">
           <div className="footer-content">
             <img src="./images/Mosaic-digital.png" alt="" />
@@ -275,7 +297,7 @@ export default function Stories() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
