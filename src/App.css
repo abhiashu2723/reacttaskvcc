@@ -691,4 +691,9 @@ body{
 .width-responsive{
   margin-top: -36px;
 }
+.swiper-button-next {
+  right: 1px;
+  left: auto;
+  top: 86px;
+}
 
