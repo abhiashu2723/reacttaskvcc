@@ -146,6 +146,7 @@
   }
   .finance-section1{
     margin-left: 20px;
+    width: 100%;
   }
   
 }
@@ -256,9 +257,9 @@
   .card-content p {
     width: auto;
   }
-  .section {
-    /* margin-left:90px ; */
-  }
+  /* .section {
+    margin-left:90px ;
+  } */
   
   .finance-section1 p {
     font-size: 3vw;
@@ -279,9 +280,9 @@
       .left-section{
         margin-left: 30px;
       } 
-      .section {
-        /* margin-left:50px ; */
-      }
+      /* .section {
+        margin-left:50px ;
+      } */
       .sudhir-res{
       margin-left: 94px;
       margin-right: 126px;
@@ -304,9 +305,9 @@
       .left-section{
         margin-left: 15px;
       } 
-      .section {
-        /* margin-left:30px ; */
-      }
+      /* .section {
+        margin-left:30px ;
+      } */
       .sudhir-res{
         margin-left: 80px;
         margin-right: 100px;
@@ -382,11 +383,11 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 420px) {
+/* @media only screen and (min-width: 320px) and (max-width: 420px) {
   .stories1 {
-    /* width: 100%; */
+    width: 100%;
   }
-}
+} */
 @media only screen and (min-width: 320px) and (max-width: 392px) {
   .section img {
     width: 100%;
