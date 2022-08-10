@@ -149,7 +149,7 @@ body{
   border-radius: 8px;
 }
 .kotak{
-  width: 78%;
+  width: 100%;
 }
 /* .card-content-crausal{
   background: var(--color-brand-slider-card);
@@ -700,4 +700,13 @@ body{
   text-decoration: none;
   color: #222223;
 }
+.card-content-crausal{
+  background-color: #ededed;
+  width: 86%;
+  height: 100%;
+  border: 1px solid #ededed;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 10px;
 
+}
