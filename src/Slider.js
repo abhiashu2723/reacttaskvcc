@@ -35,7 +35,7 @@ function Maincards(props) {
         
    },
    640:{
-    slidesPerView: 2,
+    slidesPerView: 3,
     spaceBetween: 20,
    }
   }}
@@ -68,6 +68,10 @@ function Maincards(props) {
               publish={value.publish}
               authorapi="sliderauthor"
               publishapi="sliderauthor"
+              contentslug="contentapislug"
+              contentauthorslug="contentapislug"
+              contentnameslug="contentapislug"
+              
               // name={value.industry_details[0].name}
               />
               {/* </div> */}

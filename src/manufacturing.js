@@ -61,9 +61,12 @@ export default function Manufacturing(props) {
               title={value.title}
               name={value.industry_details[0].name}
               // publish={value.author_detail[0].name}
-              publish={value.publish}
+              // publish={value.publish} 
               authorapi="sliderauthor"
               publishapi="sliderauthor"
+              contentslug="contentapislug"
+              contentauthorslug="contentapislug"
+              contentnameslug="contentapislug"
               />
             )
             

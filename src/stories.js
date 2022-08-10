@@ -27,6 +27,9 @@ export default function Stories(props) {
               publish={value.publish}
               authorapi="sliderauthor"
               publishapi="sliderauthor"
+              contentslug="contentapislug"
+              contentauthorslug="contentapislug"
+              contentnameslug="contentapislug"
               />)
           })}
 
