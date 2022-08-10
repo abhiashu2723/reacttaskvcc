@@ -10,27 +10,42 @@ import Stories from './stories';
 import Maincards from "./Slider";
 import Vcctv from './vcctv';
 import VcCirclePremium from './vcccirclepremium';
+import Loader from './loader';
 // import Impocards1 from './impocards1';
 // import {caraImg,founder,tmt,techCircle,mergers,financials} from './dataserver';
 // import Manufacturingapi from './manufacturingapi';
 // import Ans from './files';
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import axios from "axios";
 import Footer from './footer';
 // import Cardapi from './cardapi';
 
 function App() {
   const [data, setData] = useState([]);
+  const[load,setLoad]=useState(false);
+  useEffect(() =>{
   axios
     .get("https://run.mocky.io/v3/25b66855-89a3-45a5-8db6-85fc85041185")
     .then((response) => {
+      setLoad(true);
       console.log(response.data.section_list[0].stories_list);
       setData(response.data.section_list);
-    });
+    })});
+    
+  
+ 
+    
+       
+        
+    
+
   return (
     <>
       <div>
         <Navbar />
+        {load===false ?<Loader/>:
+
+        <>
         {data.map((value, index) => {
           if (value.section_slug==="top-stories") {
             return <Manufacturing value={value} />;
@@ -121,6 +136,7 @@ function App() {
 
         })}
         <Footer/>
+        </> }
         {/* <Input />
         <Infographic /> */}
         {/* <Manufacturing/> */}

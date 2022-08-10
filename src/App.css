@@ -710,3 +710,14 @@ body{
   border-radius: 10px;
 
 }
+.loader {
+  border: 16px solid #f3a7a7;
+  border-radius: 50%;
+  border-top: 16px solid red;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 2s linear infinite; 
+  animation: spin 2s linear infinite;
+  margin: 50px 0px 0px 50px;
+}
+
