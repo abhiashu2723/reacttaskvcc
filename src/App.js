@@ -10,7 +10,7 @@ import Stories from './stories';
 import Maincards from "./Slider";
 import Vcctv from './vcctv';
 import VcCirclePremium from './vcccirclepremium';
-import Loader from './loader';
+// import Loader from './loader';
 // import Impocards1 from './impocards1';
 // import {caraImg,founder,tmt,techCircle,mergers,financials} from './dataserver';
 // import Manufacturingapi from './manufacturingapi';
