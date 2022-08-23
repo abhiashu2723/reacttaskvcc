@@ -9,8 +9,8 @@ export default function Manufacturingapi() {
   return (
           <div className="container">
             <div className="manu_main">
-              <div className="manu_body">
-                <h3>Manufacturing</h3>
+              <div className="manu_body ">
+                <h3 className="skeleton">Manufacturing</h3>
                 {/* <h3>{value.title}</h3> */}
                 <h1>
                   Warburg Pincus set to acquire majority stake in auto parts

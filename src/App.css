@@ -711,13 +711,45 @@ body{
 
 }
 .loader {
-  border: 16px solid #f3a7a7;
+  border: 16px solid navy;
   border-radius: 50%;
-  border-top: 16px solid red;
+  border-top: 16px solid blue;
   width: 40px;
   height: 40px;
   -webkit-animation: spin 2s linear infinite; 
   animation: spin 2s linear infinite;
   margin: 50px 0px 0px 50px;
 }
+
+
+/* .skeleton span{
+  color: transparent !important;
+  background-color: #F0F0F0;
+}
+.skeleton h1{
+  color: transparent !important;
+  background-color: #F0F0F0;
+}
+.skeleton p{
+  color: transparent !important;
+  background-color: #F0F0F0;
+} */
+.skeleton{
+  color: transparent !important;
+  /* background-color: hsl(0, 0%, 94%) !important; */
+  animation: ani-skeleton 2s linear infinite alternate;
+ 
+}
+@keyframes ani-skeleton{
+  0%{
+    background-color: hsl(0, 0%, 94%);
+  }
+  100%{
+    background-color: hwb(0 61% 38%);
+  }
+  
+
+}
+
+
 

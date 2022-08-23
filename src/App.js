@@ -19,6 +19,7 @@ import { useState,useEffect } from "react";
 import axios from "axios";
 import Footer from './footer';
 // import Cardapi from './cardapi';
+import Skeleton from './skeleton';
 
 function App() {
   const [data, setData] = useState([]);
@@ -43,8 +44,8 @@ function App() {
     <>
       <div>
         <Navbar />
-        {load===false ?<Loader/>:
-
+        {load===false ?<Skeleton/>:
+        
         <>
         {data.map((value, index) => {
           if (value.section_slug==="top-stories") {
