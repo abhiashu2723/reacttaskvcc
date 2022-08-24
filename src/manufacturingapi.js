@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 // import Advertisement from "./advertisement";
 // import Editior from "./editior";
-import axios from 'axios';
+// import axios from 'axios';
 
 export default function Manufacturingapi() {
  
