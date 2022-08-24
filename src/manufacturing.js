@@ -26,8 +26,9 @@ export default function Manufacturing(props) {
               {props.value.stories_list[0].summary}
             </p>
             <p className="text-color">
+              {/* <span>{props.value.stories_list[0].publish} </span> */}
               <span>{props.value.stories_list[0].author_details[0].name}</span>
-              <span>{props.value.stories_list[0].author_details[0].name}</span>
+              {/* <span>{props.value.stories_list[0].author_details[0].name}</span> */}
             </p>
             <p>
               <button className="text-button">Read More</button>
