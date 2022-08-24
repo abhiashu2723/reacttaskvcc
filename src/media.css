@@ -547,6 +547,20 @@
     padding: 0px 100px;
   }
  }
+ @media only screen and (min-width:480px) and (max-width:613px){
+  .sudhir-res{
+    margin-left: 50px;
+    margin-right: 80px;
+    padding: 0px 60px;
+  }
+ }
+ @media only screen and (min-width:390px) and (max-width:480px){
+  .sudhir-res{
+    margin-left: 50px;
+    margin-right: 80px;
+    padding: 0px 30px;
+  }
+ }
     
  
  @media only screen and (min-width:360px) and (max-width:778px){

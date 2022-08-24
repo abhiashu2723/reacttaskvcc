@@ -64,7 +64,7 @@ function App() {
                <>
                <Editior value={value} 
                aajtak="Advertisnment"
-               imgaajtak="./images/sudhirzeenews.png" line={{display:"none"}}/>
+               imgaajtak="./images/sudhirzeenews.png" />
                <Input />
                 <Infographic />
                {/* <Advertisement image="./images/advertisenment.png" width="100%" /> */}
