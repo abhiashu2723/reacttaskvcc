@@ -18,15 +18,15 @@ export default function Cardapi(props) {
             </Link>
           </div>
           <div className={props.contentapi}>
-            <Link to={props?.valueheadingslug || " "}>
-              <h2>{props.heading}</h2>
-              <h3>{props.heading}</h3>
+            <Link className={props.header}to={props?.valueheadingslug || " "}>
+              {/* <h2>{props.heading}</h2> */}
+              <h3 className={props.headerfinance}>{props.heading}</h3>
             </Link>
             <Link
               className={props.contentnameslug}
               to={props?.valuenameslug || " "}
             >
-              <h4>{props.name}</h4>
+              <h4 className={props.headerfinance}>{props.name}</h4>
             </Link>
             <Link
               className={props.contentslug}
@@ -38,10 +38,14 @@ export default function Cardapi(props) {
               className={props.contentauthorslug}
               to={props?.valueauthorslug || " "}
             >
-              <span className={props.publishapi}>
+              <ul className={props.dotted}>
+              <li className={props.publishapi}>
                 {moment(props.publish).format("Do MMM YYYY")}
-              </span>
-              <span className={props.authorapi}>{props.author}</span>
+              </li>
+              <li className={props.authorapi}>{props.author}
+                {/* <button className={props.action}></button> */}
+              </li>
+              </ul>
             </Link>
           </div>
         </div>

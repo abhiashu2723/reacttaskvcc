@@ -19,8 +19,8 @@ export default function Infographic() {
           <h2 className="info-heading">Infographic</h2>
           <img src="./images/Mask Group 18.png" alt="images" />
         </div>
-        <div>
-          <h5 className="left-section1 sudhir-responsive-adv">Advertisnment</h5>
+        <div className="left-section1 ">
+          <h5  >Advertisnment</h5>
           <img src="./images/sudhirzeenews.png" alt="" />
         </div>
       </div>

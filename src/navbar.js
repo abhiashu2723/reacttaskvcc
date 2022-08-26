@@ -17,13 +17,13 @@ export default function Navbar() {
   return (
     <>
       <div className="navbar_box navbar-box-res">
-        <div className="container">
           <div className="navbar-height">
+        <div className="container">
             <div className="navbar">
               <div className="nav-logo">
                 <img src="./images/VCC-logo.svg" alt="log" />
               </div>
-              <div className="nav-humbarger">
+               <div className="nav-humbarger">
                 <div className="subscribe-responsive">
                   <div className="humbarger">
                     <a href="/#" onClick={show}>
@@ -94,7 +94,7 @@ export default function Navbar() {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> 
               <ul className="list-navbar">
                 <li className="nav-list">
                   <a className="tag" href="/">

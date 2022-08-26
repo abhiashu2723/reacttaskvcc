@@ -41,10 +41,10 @@ export default function Manufacturing(props) {
           </div>
           
         </div>
-        <div className="sudhir-res">
+        {/* <div className="sudhir-res">
           <h5 className="left-section1 sudhir-responsive-adv">Advertisnment</h5>
           <img src="./images/sudhirzeenews.png" alt="" />
-        </div>
+        </div> */}
 
 
 
@@ -59,12 +59,19 @@ export default function Manufacturing(props) {
               img={value.file_url}
               width="100%"
               bdrradius="zomato"
+              heading={value.industry_details[0].name}
               title={value.title}
               author={value.author_details[0].name}
               // publish={value.author_detail[0].name}
               publish={value.publish} 
-              authorapi="sliderauthor"
+              header="headercard"
+              headerfinance="headerfinancezomato"
+              storiesapi="card-zomato-container"
+              imgdiv="card-zomato-container1"
+              contentapi="card-zomato-container2"
+              authorapi="sliderauthor1"
               publishapi="sliderauthor"
+              dotted="dotapi"
               contentslug="contentapislug"
               contentauthorslug="contentapislug"
               contentnameslug="contentapislug"
@@ -208,10 +215,10 @@ export default function Manufacturing(props) {
             </p>
           </div>
         </div> */}
-        <div className="sudhir-res">
+        {/* <div className="sudhir-res">
           <h5 className="left-section1 sudhir-responsive-adv">Advertisnment</h5>
           <img src="./images/sudhirzeenews.png" alt="" />
-        </div>
+        </div> */}
       </div>
       {/* <Advertisement  image ="./images/adv1.png"/> */}
       <Advertisement image="./images/advertisenment.png" width="950px" />

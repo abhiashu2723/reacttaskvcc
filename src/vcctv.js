@@ -8,7 +8,7 @@ export default function Vcctv(props) {
           <div>
             <h3>{props.value.section_name}</h3>
           </div>
-          <div>
+          <div className="vcctv-view">
             <span>View More</span>
             <span><img src="./images/iconleft.svg" alt="" /></span>
           </div>
@@ -41,10 +41,10 @@ export default function Vcctv(props) {
               partnerships can harness the data to tackle the issues faced by
               the sector?
             </p>
-            <p className="text-color">
-              <span>30 september</span>
-              <span>Madhiruma Nandy</span>
-            </p>
+            <ul className="dotapi">
+              <li className="sliderauthor">Madhiruma Nandy</li>
+              <li className="sliderauthor1">30 september</li>
+            </ul>
           </div>
         </div>
       </div>

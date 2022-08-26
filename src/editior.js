@@ -69,10 +69,11 @@ export default function Editior(props) {
                 {props.value.stories_list[1].title}
                 </p>
               <p className="finance-para">
-                <span>{props.author1}</span>
+                <span>{props.author}</span>
                 <span>{props.description1}</span>
               </p>
             </div>
+
           </div>
           <hr style={props.line}/>
           {/* tmt section */}
