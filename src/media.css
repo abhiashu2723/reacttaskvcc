@@ -394,9 +394,13 @@
 @media only screen and (min-width: 340px) and (max-width: 576px){
   .container{
     width: 100%;
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* margin: 0 auto; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    margin-top: 0px;
+  }
+  .navbar-height{
+    margin-top: 0px;
   }
   .nav-logo {
     display: none;
@@ -473,11 +477,12 @@
     background-color: #ffffff;
     border: 1px solid #f0f0f0;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 500;
   }
   .navbar-box-res {
     box-shadow: 0px 2px 4px #0000001a;
-    position: fixed;
+    position: sticky;
     width: 100%;
     z-index: 8;
     background-color: #ffff;
@@ -497,12 +502,14 @@
   }
   .manu_main {
     flex-wrap: wrap-reverse;
+    margin-top: 0px;
   }
   .manu_body {
     width: 100%;
+    margin-top: 0px;
   }
   .electriccar {
-    width: 95%;
+    width: 100%;
   }
   .infographic-container {
     flex-wrap: wrap;
@@ -519,13 +526,14 @@
   .input-container {
     flex-wrap: wrap;
     width: 95%;
+    margin-top: 15px;
   }
   .editor-section {
     flex-wrap: wrap;
   }
   
   .vcctv-java{
-    width: 422px;
+    width: 319px;
   }
   .footer-products li {
     padding: 0px 0px;
@@ -557,10 +565,10 @@
   display: none;
 }
 .infographic-container{
-  padding: 0px 90px ;
+  padding: 0px 17px ;
 }
 .left-section{
-  padding: 0px 95px;
+  padding: 0px 17px;
 }
 .twitter-container-upper{
   margin-bottom: 20px;
@@ -572,10 +580,10 @@
   display: flex;
 }
 .card-zomato-container1{
-  width: 50%;
+  width: 40%;
 }
 .card-zomato-container2{
-  width: 100%;
+  width: 90%;
   margin-left: 10px;
 
 }
@@ -601,7 +609,7 @@
   display: none;
 }
 .manu-img{
-  margin-top:  83px;
+  margin-top :0px;
 }
 .vcctv-container{
   border: none;
@@ -616,16 +624,17 @@
   flex-wrap: wrap;
 }
 .storiesimgdiv{
-  width: 150px;
+  width: 142px;
 }
 .contentapistory p{
   font-size: 12px;
+  width: 100%;
 }
 .storiesimgdiv{
   /* width: 100%; */
 }
 .contentapistory{
-  width: 313px;
+  width: 100%;
 }
 .zomato1{
   width: 95%;
@@ -642,6 +651,9 @@
 }
 .editiorapi{
   width: 95%;
+}
+.nav-list{
+  padding:26px 45px ;
 }
 }
 
