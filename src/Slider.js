@@ -5,91 +5,87 @@ import "swiper/css";
 import "swiper/scss/navigation";
 import Cardapi from "./cardapi";
 function Maincards(props) {
-  return (<>
-  <div className="container" key={props.value.stories_list[0].feid}>
-    <div>
-      <h3>{props.value.section_name}</h3>
-    </div>
-   
-    <div className="cardimg">
-      <Swiper
-      
-      breakpoints={{
-        340:{
-          slidesPerView:1,
-          // spaceBetween:10,
-        },
-        500:{
-          slidesPerView:1,
-          spaceBetween:10,
-        },
-        600:{
-          slidesPerView:1.5,
-          spaceBetween:20
-        },
-        640: {
-        slidesPerView: 2.5,
-        spaceBetween:20,
-        // spaceBetween:50,
-        
-   },
-   768:{
-    slidesPerView: 3,
-    spaceBetween: 40,
-   },
-  //  1024: {
-  //       slidesPerView: 5,
-  //       spaceBetween: 50,
-  //     },
-      992:{
-        slidesPerView:4.5,
-        spaceBetween:50,
-      }
-  }}
-        // install Swiper modules
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={10}
-        slidesPerView={4.5}
-        navigation
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
-      >
-
-        <div className="crausol">
-          {props.value.stories_list.map((value,index) => {
-            // if(index === 0) return null;
-            return (
-              <SwiperSlide>
-                 {/* <div className="card"> */}
-              <Cardapi 
-              cardcomp="card-content-crausal"
-              storiesapi="card_width"
-              heading={value.section_name}
-              img={value.file_url}
-              width="100%"
-              bdrradius="zomato1"
-              title={value.title}
-              contentapi="kotak"
-              author={value.author_details[0].name}
-              publish={value.publish}
-              authorapi="sliderauthor1"
-              publishapi="sliderauthor"
-              dotted="dotapi"
-              action="actionapi"
-              contentslug="contentapislug"
-              contentauthorslug="contentapislug"
-              contentnameslug="contentapislug"
-              headerfinance="slidermargin"
-              
-              // name={value.industry_details[0].name}
-              />
-              {/* </div> */}
-              </SwiperSlide>)
-          })}
+  return (
+    <>
+      <div className="container" key={props.value.stories_list[0].feid}>
+        <div>
+          <h3>{props.value.section_name}</h3>
         </div>
-                {/* <div >
+
+        <div className="cardimg">
+          <Swiper
+            breakpoints={{
+              340: {
+                slidesPerView: 1,
+                // spaceBetween:10,
+              },
+              500: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              576: {
+                slidesPerView: 2.2,
+                spaceBetween: 20,
+              },
+              640: {
+                slidesPerView: 2.5,
+                spaceBetween: 20,
+                // spaceBetween:50,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+
+              992: {
+                slidesPerView: 4.5,
+                spaceBetween: 50,
+              },
+            }}
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={10}
+            slidesPerView={4.5}
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
+          >
+            <div className="crausol">
+              {props.value.stories_list.map((value, index) => {
+                // if(index === 0) return null;
+                return (
+                  <SwiperSlide>
+                    {/* <div className="card"> */}
+                    <Cardapi
+                      cardcomp="card-content-crausal"
+                      storiesapi="card_width"
+                      heading={value.section_name}
+                      img={value.file_url}
+                      width="100%"
+                      bdrradius="zomato1"
+                      title={value.title}
+                      contentapi="kotak"
+                      author={value.author_details[0].name}
+                      publish={value.publish}
+                      authorapi="sliderauthor1"
+                      publishapi="sliderauthor"
+                      dotted="dotapi"
+                      action="actionapi"
+                      contentslug="contentapislug"
+                      contentauthorslug="contentapislug"
+                      contentnameslug="contentapislug"
+                      headerfinance="slidermargin"
+
+                      // name={value.industry_details[0].name}
+                    />
+                    {/* </div> */}
+                  </SwiperSlide>
+                );
+              })}
+            </div>
+            {/* <div >
                   <div className="swiper-crausal">
                   <img
                     className="img-responsive"
@@ -107,11 +103,9 @@ function Maincards(props) {
                   </p>
                   </div>
                 </div> */}
-           
-      </Swiper>
-    </div>
-    </div>
-    
+          </Swiper>
+        </div>
+      </div>
     </>
   );
 }
