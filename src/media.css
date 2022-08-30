@@ -573,6 +573,9 @@
 .twitter-container-upper{
   margin-bottom: 20px;
 }
+.twitter-container-upperimg{
+  width: 100%;
+}
 .left-section1{
   margin-top: 20px;
 }
@@ -613,6 +616,7 @@
 }
 .vcctv-container{
   border: none;
+  padding: 0px;
 }
 .vcctv-left{
   margin-left: 0px;
@@ -657,6 +661,15 @@
 }
 .input-text-field input{
   padding: 12px 40px;
+}
+.card-content-crausal{
+  padding: 0px;
+}
+.swiper-button-prev{
+  display: none;
+}
+.swiper-button-next{
+  display: none;
 }
 }
 

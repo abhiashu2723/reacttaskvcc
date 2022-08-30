@@ -5,7 +5,7 @@ export default function Infographic() {
     <div className="container">
       <div className="infographic-container responsive-infographic">
         <div className="twitter-container-upper responsive-infographic1">
-          <img src="./images/Group 9139.png" alt="images" />
+          <img src="./images/Group 9139.png" alt="images" className="twitter-container-upperimg"/>
           <div className="twitter-container responsive-twitter">
             <h6>VCCircle.com </h6>
             <p>
