@@ -525,7 +525,7 @@
   }
   .input-container {
     flex-wrap: wrap;
-    width: 95%;
+    width: 100%;
     margin-top: 15px;
   }
   .editor-section {
@@ -650,10 +650,13 @@
 
 }
 .editiorapi{
-  width: 95%;
+  width: 100%;
 }
 .nav-list{
   padding:26px 45px ;
+}
+.input-text-field input{
+  padding: 12px 40px;
 }
 }
 
