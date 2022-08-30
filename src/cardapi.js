@@ -8,7 +8,7 @@ export default function Cardapi(props) {
       <div className={props.crdflx}>
         <div className={props.storiesapi}>
           <div className={props.imgdiv}>
-            <Link to={props?.valueimgslug || " "}>
+            <Link to={props?.imgslug || " "}>
               <img
                 src={props.img}
                 alt=""
@@ -18,7 +18,7 @@ export default function Cardapi(props) {
             </Link>
           </div>
           <div className={props.contentapi}>
-            <Link className={props.header}to={props?.valueheadingslug || " "}>
+            <Link className={props.header}to={props?.headingslug || " "}>
               {/* <h2>{props.heading}</h2> */}
               <h3 className={props.headerfinance}>{props.heading}</h3>
             </Link>

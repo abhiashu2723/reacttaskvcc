@@ -17,11 +17,15 @@ function Maincards(props) {
       breakpoints={{
         340:{
           slidesPerView:1,
-          spaceBetween:10,
+          // spaceBetween:10,
         },
         500:{
-          slidesPerView:2,
+          slidesPerView:1,
           spaceBetween:10,
+        },
+        600:{
+          slidesPerView:1.5,
+          spaceBetween:20
         },
         640: {
         slidesPerView: 2.5,

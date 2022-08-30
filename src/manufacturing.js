@@ -37,7 +37,7 @@ export default function Manufacturing(props) {
 
           <div className="manu-img">
             {/* <img src="./images/Manufacturing.png" alt="images" /> */}
-            <img  className="electriccar"src={props.value.stories_list[0].file_url} alt="" />
+            <img  className="electriccar" src={props.value.stories_list[0].file_url} alt="" />
           </div>
           
         </div>

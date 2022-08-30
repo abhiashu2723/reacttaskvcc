@@ -26,16 +26,21 @@ function App() {
   const[load,setLoad]=useState(false);
   useEffect(() =>{
   axios
-    .get("https://run.mocky.io/v3/25b66855-89a3-45a5-8db6-85fc85041185")
-    .then((response) => {
-      setLoad(true);
-      console.log(response.data.section_list[0].stories_list);
-      setData(response.data.section_list);
-    })});
+    // .get("https://run.mocky.io/v3/25b66855-89a3-45a5-8db6-85fc85041185")
+    // .then((response) => {
+    //   setLoad(true);
+    //   console.log(response.data.section_list[0].stories_list);
+    //   setData(response.data.section_list);
+    // })},[]);
     
   
  
-    
+    .get("https://run.mocky.io/v3/25b66855-89a3-45a5-8db6-85fc85041185")
+    .then((response)=>{
+      setLoad(true);
+      console.log(response.data.section_list[0].stories_list);
+      setData(response.data.section_list);
+    })},[]);
        
         
     

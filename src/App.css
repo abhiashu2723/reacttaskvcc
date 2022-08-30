@@ -411,10 +411,11 @@ body {
 }
 
 .contentapistory p {
-  font-size: 20px;
+  font-size: 19px;
   margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 5px;
+  font-weight: 500;
 }
 .contentapistory h4 {
   margin-top: -19px;
@@ -748,7 +749,7 @@ body {
 } */
 .width-responsive {
   margin-top: 10px;
-  width: 100%;
+  /* width: 100%; */
 }
 .swiper-button-next {
   right: 1px;

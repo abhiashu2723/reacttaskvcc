@@ -13,6 +13,9 @@
   .humbarger {
     display: none;
   }
+  .nav-humbarger {
+    display: none;
+  }
 }
 @media only screen and (min-width: 1251px) and (max-width: 1400px) {
   .container {
@@ -37,8 +40,7 @@
     width: 960px;
   }
   .advcontainer {
-    margin-left: 50px;
-    margin-right: auto;
+   margin: 0px 0px;
   }
   .zomato1 {
     width: 100%;
@@ -48,6 +50,9 @@
   }
   .nav-humbarger {
     display: none;
+  }
+  .width-responsive {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -70,13 +75,14 @@
     padding: 20px;
   }
   .adv_color {
-    padding: 5px 30px;
+    /* padding: 5px 30px; */
   }
   .advcontainer {
-    margin-left: 0px;
+    margin: 0px 0px;
   }
   .width-responsive {
     margin-top: 0px;
+    width: 100%;
   }
 
   .card_width {
@@ -375,6 +381,14 @@
 .vcctv-view{
   margin: 20px 0px;
 }
+.footer-products{
+  flex-wrap: wrap;
+}
+.contentapistory p{
+  font-size: 14px;
+  width: 87%;
+
+}
 
 }
 @media only screen and (min-width: 340px) and (max-width: 576px){
@@ -485,10 +499,10 @@
     flex-wrap: wrap-reverse;
   }
   .manu_body {
-    width: auto;
+    width: 100%;
   }
   .electriccar {
-    width: 100%;
+    width: 95%;
   }
   .infographic-container {
     flex-wrap: wrap;
@@ -504,13 +518,14 @@
   }
   .input-container {
     flex-wrap: wrap;
+    width: 95%;
   }
   .editor-section {
     flex-wrap: wrap;
   }
   
   .vcctv-java{
-    width: 100%;
+    width: 422px;
   }
   .footer-products li {
     padding: 0px 0px;
@@ -588,10 +603,6 @@
 .manu-img{
   margin-top:  83px;
 }
-.vcctv-java{
-  width: 500px;
-  border-radius: 10px;
-}
 .vcctv-container{
   border: none;
 }
@@ -600,6 +611,37 @@
 }
 .vcctv-view{
   margin: 20px 0px;
+}
+.footer-products{
+  flex-wrap: wrap;
+}
+.storiesimgdiv{
+  width: 150px;
+}
+.contentapistory p{
+  font-size: 12px;
+}
+.storiesimgdiv{
+  /* width: 100%; */
+}
+.contentapistory{
+  width: 313px;
+}
+.zomato1{
+  width: 95%;
+}
+.upcoming-lower{
+  width: 95%;
+}
+.upcoming-upper{
+  width: 95%;
+}
+.manu_body h1{
+  font-size: 25px;
+
+}
+.editiorapi{
+  width: 95%;
 }
 }
 
