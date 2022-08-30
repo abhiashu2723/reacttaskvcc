@@ -40,7 +40,7 @@
     width: 960px;
   }
   .advcontainer {
-   margin: 0px 0px;
+    margin: 0px 0px;
   }
   .zomato1 {
     width: 100%;
@@ -160,8 +160,8 @@
     display: none;
   }
   .footer-products li {
-    padding: 0px 0px
-}
+    padding: 0px 0px;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   .container {
@@ -177,11 +177,11 @@
     display: flex;
     justify-content: space-between;
   }
-  .humbarger{
+  .humbarger {
     width: 25%;
     margin: 22px 2px;
- }
-  .humbarger img{
+  }
+  .humbarger img {
     width: 65%;
   }
 
@@ -291,52 +291,52 @@
   .editor-section {
     flex-wrap: wrap;
   }
-  
-  .vcctv-java{
+
+  .vcctv-java {
     width: 100%;
   }
   .footer-products li {
     padding: 0px 0px;
-}
-.card {
-  flex-wrap: wrap;
   }
-.card-content {
-  width: 48%;
-  margin-bottom: 10px;
-}
-.card p {
-  margin-bottom: 10px;
-}
-.section{
-  width: 100%;
-}
-.middle-section{
-  width: 100%;
-  margin-left: 0px;
-}
-.section1{
-  width: 27%;
-}
-.swiggy{
-  width: 100%;
-}
-.line{
-  display: none;
-}
-.infographic-container{
-  padding: 0px 90px ;
-}
-.left-section{
-  padding: 0px 95px;
-}
-.twitter-container-upper{
-  margin-bottom: 20px;
-}
-.left-section1{
-  margin-top: 20px;
-}
-/* .card-zomato-container{
+  .card {
+    flex-wrap: wrap;
+  }
+  .card-content {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+  .card p {
+    margin-bottom: 10px;
+  }
+  .section {
+    width: 100%;
+  }
+  .middle-section {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .section1 {
+    width: 27%;
+  }
+  .swiggy {
+    width: 100%;
+  }
+  .line {
+    display: none;
+  }
+  .infographic-container {
+    padding: 0px 90px;
+  }
+  .left-section {
+    padding: 0px 95px;
+  }
+  .twitter-container-upper {
+    margin-bottom: 20px;
+  }
+  .left-section1 {
+    margin-top: 20px;
+  }
+  /* .card-zomato-container{
   display: flex;
 }
 .card-zomato-container1{
@@ -356,50 +356,48 @@
 .headerfinancezomato{
   margin: 5px 0px;
 } */
-.slidermargin{
-  margin: 0px 0px;
+  .slidermargin {
+    margin: 0px 0px;
+  }
+  .kotak {
+    margin: 0px 0px;
+  }
+  .adv_color {
+    display: none;
+  }
+  .manu-img {
+    margin-top: 83px;
+  }
+  .vcctv-java {
+    width: 500px;
+    border-radius: 10px;
+  }
+  .vcctv-container {
+    border: none;
+  }
+  .vcctv-left {
+    margin-left: 0px;
+  }
+  .vcctv-view {
+    margin: 20px 0px;
+  }
+  .footer-products {
+    flex-wrap: wrap;
+  }
+  .contentapistory p {
+    font-size: 14px;
+    width: 87%;
+  }
 }
-.kotak{
-  margin: 0px 0px;
-}
-.adv_color{
-  display: none;
-}
-.manu-img{
-  margin-top:  83px;
-}
-.vcctv-java{
-  width: 500px;
-  border-radius: 10px;
-}
-.vcctv-container{
-  border: none;
-}
-.vcctv-left{
-  margin-left: 0px;
-}
-.vcctv-view{
-  margin: 20px 0px;
-}
-.footer-products{
-  flex-wrap: wrap;
-}
-.contentapistory p{
-  font-size: 14px;
-  width: 87%;
-
-}
-
-}
-@media only screen and (min-width: 340px) and (max-width: 576px){
-  .container{
+@media only screen and (min-width: 340px) and (max-width: 576px) {
+  .container {
     width: 100%;
     /* margin: 0 auto; */
     /* padding-left: 10px; */
     /* padding-right: 10px; */
     margin-top: 0px;
   }
-  .navbar-height{
+  .navbar-height {
     margin-top: 0px;
   }
   .nav-logo {
@@ -412,11 +410,11 @@
     display: flex;
     justify-content: space-between;
   }
-  .humbarger{
+  .humbarger {
     width: 25%;
     margin: 22px 2px;
- }
-  .humbarger img{
+  }
+  .humbarger img {
     width: 65%;
   }
 
@@ -531,14 +529,14 @@
   .editor-section {
     flex-wrap: wrap;
   }
-  
-  .vcctv-java{
+
+  .vcctv-java {
     width: 319px;
   }
   .footer-products li {
     padding: 0px 0px;
-}
-/* .card {
+  }
+  /* .card {
   flex-wrap: wrap;
   }
 .card-content {
@@ -548,128 +546,125 @@
 .card p {
   margin-bottom: 10px;
 } */
-.section{
-  width: 100%;
+  .section {
+    width: 100%;
+  }
+  .middle-section {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .section1 {
+    width: 27%;
+  }
+  .swiggy {
+    width: 100%;
+  }
+  .line {
+    display: none;
+  }
+  .infographic-container {
+    padding: 0px 17px;
+  }
+  .left-section {
+    padding: 0px 17px;
+  }
+  .twitter-container-upper {
+    margin-bottom: 20px;
+  }
+  .twitter-container-upperimg {
+    width: 100%;
+  }
+  .left-section1 {
+    margin-top: 20px;
+  }
+  .card-zomato-container {
+    display: flex;
+  }
+  .card-zomato-container1 {
+    width: 40%;
+  }
+  .card-zomato-container2 {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .card p {
+    margin: 0px 0px;
+  }
+  .card {
+    flex-wrap: wrap;
+  }
+  .card-content {
+    width: 100%;
+  }
+  .headerfinancezomato {
+    margin: 5px 0px;
+  }
+  .slidermargin {
+    margin: 0px 0px;
+  }
+  .kotak {
+    margin: 0px 0px;
+  }
+  .adv_color {
+    display: none;
+  }
+  .manu-img {
+    margin-top: 0px;
+  }
+  .vcctv-container {
+    border: none;
+    padding: 0px;
+  }
+  .vcctv-left {
+    margin-left: 0px;
+  }
+  .vcctv-view {
+    margin: 20px 0px;
+  }
+  .footer-products {
+    flex-wrap: wrap;
+  }
+  .storiesimgdiv {
+    width: 142px;
+  }
+  .contentapistory p {
+    font-size: 12px;
+    width: 100%;
+  }
+  .storiesimgdiv {
+    /* width: 100%; */
+  }
+  .contentapistory {
+    width: 100%;
+  }
+  .zomato1 {
+    width: 95%;
+  }
+  .upcoming-lower {
+    width: 95%;
+  }
+  .upcoming-upper {
+    width: 95%;
+  }
+  .manu_body h1 {
+    font-size: 25px;
+  }
+  .editiorapi {
+    width: 100%;
+  }
+  .nav-list {
+    padding: 26px 45px;
+  }
+  .input-text-field input {
+    padding: 12px 40px;
+  }
+  .card-content-crausal {
+    padding: 0px;
+  }
+  .swiper-button-prev {
+    display: none !important;
+  }
+  .swiper-button-next {
+    display: none !important;
+  }
 }
-.middle-section{
-  width: 100%;
-  margin-left: 0px;
-}
-.section1{
-  width: 27%;
-}
-.swiggy{
-  width: 100%;
-}
-.line{
-  display: none;
-}
-.infographic-container{
-  padding: 0px 17px ;
-}
-.left-section{
-  padding: 0px 17px;
-}
-.twitter-container-upper{
-  margin-bottom: 20px;
-}
-.twitter-container-upperimg{
-  width: 100%;
-}
-.left-section1{
-  margin-top: 20px;
-}
-.card-zomato-container{
-  display: flex;
-}
-.card-zomato-container1{
-  width: 40%;
-}
-.card-zomato-container2{
-  width: 90%;
-  margin-left: 10px;
-
-}
-.card p{
-  margin: 0px 0px;
-}
-.card{
-  flex-wrap: wrap;
-}
-.card-content{
-  width: 100%;
-}
-.headerfinancezomato{
-  margin: 5px 0px;
-}
-.slidermargin{
-  margin: 0px 0px;
-}
-.kotak{
-  margin: 0px 0px;
-}
-.adv_color{
-  display: none;
-}
-.manu-img{
-  margin-top :0px;
-}
-.vcctv-container{
-  border: none;
-  padding: 0px;
-}
-.vcctv-left{
-  margin-left: 0px;
-}
-.vcctv-view{
-  margin: 20px 0px;
-}
-.footer-products{
-  flex-wrap: wrap;
-}
-.storiesimgdiv{
-  width: 142px;
-}
-.contentapistory p{
-  font-size: 12px;
-  width: 100%;
-}
-.storiesimgdiv{
-  /* width: 100%; */
-}
-.contentapistory{
-  width: 100%;
-}
-.zomato1{
-  width: 95%;
-}
-.upcoming-lower{
-  width: 95%;
-}
-.upcoming-upper{
-  width: 95%;
-}
-.manu_body h1{
-  font-size: 25px;
-
-}
-.editiorapi{
-  width: 100%;
-}
-.nav-list{
-  padding:26px 45px ;
-}
-.input-text-field input{
-  padding: 12px 40px;
-}
-.card-content-crausal{
-  padding: 0px;
-}
-.swiper-button-prev{
-  display: none;
-}
-.swiper-button-next{
-  display: none;
-}
-}
-
