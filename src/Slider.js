@@ -19,6 +19,10 @@ function Maincards(props) {
                 slidesPerView: 1,
                 // spaceBetween:10,
               },
+              360:{
+                slidesPerView:1.2,
+                spaceBetween:10,
+              },
               500: {
                 slidesPerView: 1.2,
                 spaceBetween: 20,

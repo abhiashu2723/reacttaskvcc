@@ -14,7 +14,7 @@ export default function Vcctv(props) {
           </div>
         </div>
         <div className="vcctv-lower">
-          <div >
+          <div className="vcctv-responsivediv">
             <iframe
             className="vcctv-java"
               width="550"

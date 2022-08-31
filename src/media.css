@@ -1,6 +1,7 @@
 @media (min-width: 1400px) {
   .container {
     width: 1138px;
+    margin: 0 auto;
   }
 
   .advcontainer {
@@ -17,7 +18,7 @@
     display: none;
   }
 }
-@media only screen and (min-width: 1251px) and (max-width: 1400px) {
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
   .container {
     width: 1140px;
   }
@@ -35,7 +36,7 @@
     display: none;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1251px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
   .container {
     width: 960px;
   }
@@ -101,7 +102,7 @@
     flex-wrap: wrap;
   }
   .card-content {
-    width: 45%;
+    width: 47%;
   }
   .card p {
     margin-bottom: 10px;
@@ -140,9 +141,13 @@
   }
   .lower1 img {
     width: 100%;
+    height: 148px;
+  }
+  .lower2 p{
+    font-size: 12px;
   }
   .lower2 h3{
-    font-size: 16px;
+    font-size: 14px;
   }
   .vcctv-java {
     border: 1px solid;
@@ -171,6 +176,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   .container {
@@ -251,7 +257,8 @@
     background-color: #ffffff;
     border: 1px solid #f0f0f0;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 500;
   }
   .navbar-box-res {
     box-shadow: 0px 2px 4px #0000001a;
@@ -407,6 +414,9 @@
   .slidermargin {
     margin: 0px 0px;
   }
+  .upcoming-lower1{
+    margin-bottom: 10px;
+  }
 }
 @media only screen and (min-width: 340px) and (max-width: 576px) {
   .container {
@@ -550,7 +560,7 @@
   }
 
   .vcctv-java {
-    width: 319px;
+    width: 100%;
   }
   .footer-products li {
     padding: 0px 0px;
@@ -608,6 +618,7 @@
   }
   .card p {
     margin: 0px 0px;
+    line-height: 19px;
   }
   .card {
     flex-wrap: wrap;
@@ -631,6 +642,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
   
+  }
+  .upcoming-lower1{
+    margin-bottom: 10px;
   }
   .adv_color {
     display: none;
@@ -665,7 +679,7 @@
     width: 100%;
   }
   .zomato1 {
-    width: 95%;
+    width: 100%;
   }
   .upcoming-lower {
     width: 95%;
@@ -695,11 +709,17 @@
     display: none !important;
   }
   .card-zomato-container12{
-    width: 40%;
+    width: 55%;
   }
   .premium-card{
-    right: 30px;
-    top: 89%;
+    right: 4px;
+    top: 83%;
+}
+.vcctv-responsivediv{
+  width: 576px;
+}
+.card-zomato-container1 {
+  /* width: 300px; */
 }
   }
 

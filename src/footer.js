@@ -3,7 +3,8 @@ import React from 'react'
 export default function Footer() {
   return (
     <div>
-       <div>
+       <div >
+          <div className='container'>
         <div className="footer footer-responsive">
           <div className="footer-content">
             <img src="./images/Mosaic-digital.png" alt="" />
@@ -53,6 +54,7 @@ export default function Footer() {
               Copyright © 2022 VCCircle.com. Property of Mosaic Media Ventures
               Pvt. Ltd.
             </p>
+          </div>
           </div>
         </div>
       </div>
