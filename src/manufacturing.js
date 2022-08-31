@@ -56,6 +56,8 @@ export default function Manufacturing(props) {
             return(
               <Cardapi 
               cardcomp="card-content"
+              imgdiv="card-zomato-container12"
+              premium={value.premium}
               img={value.file_url}
               width="100%"
               bdrradius="zomato"
@@ -67,7 +69,6 @@ export default function Manufacturing(props) {
               header="headercard"
               headerfinance="headerfinancezomato"
               storiesapi="card-zomato-container"
-              imgdiv="card-zomato-container1"
               contentapi="card-zomato-container2"
               authorapi="sliderauthor1"
               publishapi="sliderauthor"
@@ -75,6 +76,8 @@ export default function Manufacturing(props) {
               contentslug="contentapislug"
               contentauthorslug="contentapislug"
               contentnameslug="contentapislug"
+              premiumcardclass="premium-card"
+            
               />
             )
             

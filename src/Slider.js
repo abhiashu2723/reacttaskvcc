@@ -20,8 +20,8 @@ function Maincards(props) {
                 // spaceBetween:10,
               },
               500: {
-                slidesPerView: 1,
-                spaceBetween: 10,
+                slidesPerView: 1.2,
+                spaceBetween: 20,
               },
               576: {
                 slidesPerView: 2.2,
@@ -60,6 +60,8 @@ function Maincards(props) {
                     {/* <div className="card"> */}
                     <Cardapi
                       cardcomp="card-content-crausal"
+                      imgdiv="card-zomato-container1"
+                      premium={value.premium}
                       storiesapi="card_width"
                       heading={value.section_name}
                       img={value.file_url}
@@ -77,6 +79,7 @@ function Maincards(props) {
                       contentauthorslug="contentapislug"
                       contentnameslug="contentapislug"
                       headerfinance="slidermargin"
+                      // premiumcardclass="premium-card"
 
                       // name={value.industry_details[0].name}
                     />

@@ -20,6 +20,7 @@ import axios from "axios";
 import Footer from './footer';
 // import Cardapi from './cardapi';
 import Skeleton from './skeleton';
+// import Premium from './premium';
 
 function App() {
   const [data, setData] = useState([]);
@@ -142,6 +143,7 @@ function App() {
 
         })}
         <Footer/>
+        {/* <Premium/> */}
         </> }
         {/* <Input />
         <Infographic /> */}

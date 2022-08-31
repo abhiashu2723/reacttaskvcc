@@ -17,12 +17,13 @@ export default function Stories(props) {
           <Cardapi 
               storiesapi="stories1"
               // heading={value.section_name}
+              imgdiv="storiesimgdiv"
+              premium={value.premium}
               img={value.file_url}
               bdrradius="storiesimg"
               contentapi="contentapistory"
               name={value.industry_details[0].name}
               title={value.title}
-              imgdiv="storiesimgdiv"
               author={value.author_details[0].name}
               publish={value.publish}
               authorapi="sliderauthor1"

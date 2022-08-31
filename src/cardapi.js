@@ -1,13 +1,14 @@
 import React from "react";
 import moment from "moment";
 import { Link } from "react-router-dom";
+import Premium from "./premium";
 
 export default function Cardapi(props) {
   return (
     <div className={props.cardcomp}>
       <div className={props.crdflx}>
         <div className={props.storiesapi}>
-          <div className={props.imgdiv}>
+          <div className={props.imgdiv }>
             <Link to={props?.imgslug || " "}>
               <img
                 src={props.img}
@@ -15,7 +16,9 @@ export default function Cardapi(props) {
                 width={props.width}
                 className={props.bdrradius}
               />
+              {props.premium ==="1"? <Premium precard="premium-card "/>:null}
             </Link>
+
           </div>
           <div className={props.contentapi}>
             <Link className={props.header}to={props?.headingslug || " "}>

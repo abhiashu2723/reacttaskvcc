@@ -804,3 +804,26 @@ body {
     background-color: hwb(0 61% 38%);
   }
 }
+.premium-card {
+  background-image: linear-gradient(90deg, #fe8c00, #f83600);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 2px;
+  background-clip: padding-box;
+  padding: 4px;
+  position: absolute;
+  right: 6px;
+  top: 105px;
+}
+.card-zomato-container1{
+  position: relative;
+}
+.storiesimgdiv{
+  position: relative;
+}
+.card-zomato-container12{
+  position: relative;
+}
