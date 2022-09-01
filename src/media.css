@@ -182,6 +182,7 @@
 @media only screen and (min-width: 575px) and (max-width: 767px) {
   .container {
     width: 540px;
+   
   }
   .nav-logo {
     display: none;

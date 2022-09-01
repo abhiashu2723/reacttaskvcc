@@ -10,7 +10,7 @@ function Vccirclepre(props) {
     <div className="vccirclepremium-background">
       <div className="container" key={props.value.stories_list.feid}>
         <div>
-          <h3>{props.value.section_name}</h3>
+          <h3 className="vccirclepremiumtittle">{props.value.section_name}</h3>
         </div>
 
         <div className="cardimg">
