@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <div>
        <div >
-          <div className='container'>
         <div className="footer footer-responsive">
+          <div className='container'>
           <div className="footer-content">
             <img src="./images/Mosaic-digital.png" alt="" />
             <p>

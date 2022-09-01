@@ -230,4 +230,7 @@ const financials=[
 
     
 ]
+
+
+
 export { caraImg,founder,tmt,techCircle,mergers,financials};

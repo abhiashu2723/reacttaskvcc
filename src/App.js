@@ -20,7 +20,10 @@ import axios from "axios";
 import Footer from './footer';
 // import Cardapi from './cardapi';
 import Skeleton from './skeleton';
+import Vccirclepre from './vccirclepre';
+import Upcoming from './upcoming';
 // import Premium from './premium';
+
 
 function App() {
   const [data, setData] = useState([]);
@@ -82,9 +85,21 @@ function App() {
                <>
                <Maincards value={value} />
                <Advertisement image="./images/advertisenment.png" width="100%" />
-               <VcCirclePremium/>
+               
                </>);
           }
+          if(value.section_slug==="vccircle-premium"){
+            return(
+              <>
+              <Vccirclepre value={value} />
+              {value.section_border === "1" ? <div className="container"></div>:null}
+              <VcCirclePremium/>
+              </>
+
+            )
+          }
+          
+
           if (value.section_slug==="founders") {
             return(
                <>
@@ -142,6 +157,7 @@ function App() {
           return null;
 
         })}
+        {/* <Upcoming/> */}
         <Footer/>
         {/* <Premium/> */}
         </> }

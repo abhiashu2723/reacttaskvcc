@@ -26,7 +26,7 @@ export default function Navbar() {
                <div className="nav-humbarger">
                 <div className="subscribe-responsive">
                   <div className="humbarger">
-                    <a href="/#" onClick={show}>
+                    <a  className="humbargericon"href="/#" onClick={show}>
                     
                       <FaBars />
                     </a>

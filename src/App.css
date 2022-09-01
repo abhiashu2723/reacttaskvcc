@@ -157,7 +157,9 @@ body {
 }
 .zomato1 {
   /* width: 250px; */
-  border-radius: 8px;
+  height: 150px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 .kotak {
   width: 100%;
@@ -165,6 +167,23 @@ body {
   font-weight: 500;
   line-height: 24px;
   margin-bottom: 9px;
+}
+.premium1{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 9px;
+  background-color: #f0f0f0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-top: -11px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding: 8px 0px;
+
 }
 
 /* .card-content-crausal{
@@ -286,11 +305,24 @@ body {
 .section1 {
   width: 45%;
 }
-.swiper-button-prev:after,
+.swiper-button-prev{
+  background-color: blue;
+  padding: 0px 8px;
+  border-radius: 20px;
+  color:white !important;
+
+}
+.swiper-button-prev::after{
+  font-size: 15px !important;
+}
 .swiper-button-next {
   background-color: blue;
   padding: 0px 8px;
-  border-radius: 15px;
+  border-radius: 20px;
+  color:white !important;
+}
+.swiper-button-next::after{
+  font-size: 15px !important
 }
 
 .section p {
@@ -483,6 +515,7 @@ body {
   align-items: center;
   padding: 15px 0px;
   border-radius: 14px;
+  margin-top: 15px;
 }
 
 .input-content {
@@ -509,6 +542,9 @@ body {
   border: none;
 }
 
+.vccirclepremium-background {
+  background-color: #000000;
+}
 /* vcc */
 .vcctv-container {
   border: 1px solid #00000040;

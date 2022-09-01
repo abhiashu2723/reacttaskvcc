@@ -4,10 +4,11 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import "swiper/css";
 import "swiper/scss/navigation";
 import Cardapi from "./cardapi";
-function Maincards(props) {
+function Upcoming(props) {
   return (
     <>
-      <div className="container" key={props.value.stories_list[0].feid}>
+    <div >
+      <div className="container" key={props.value.stories_list.feid}>
         <div>
           <h3>{props.value.section_name}</h3>
         </div>
@@ -20,11 +21,7 @@ function Maincards(props) {
                 // spaceBetween:10,
               },
               360:{
-                slidesPerView:1.5,
-                spaceBetween:10,
-              },
-              450:{
-                slidesPerView:2,
+                slidesPerView:1.2,
                 spaceBetween:10,
               },
               500: {
@@ -42,12 +39,12 @@ function Maincards(props) {
               },
               768: {
                 slidesPerView: 3,
-                spaceBetween: 20,
+                spaceBetween: 40,
               },
 
               992: {
                 slidesPerView: 4.5,
-                spaceBetween: 30,
+                spaceBetween: 50,
               },
             }}
             // install Swiper modules
@@ -71,14 +68,16 @@ function Maincards(props) {
                       imgdiv="card-zomato-container1"
                       premium={value.premium}
                       storiesapi="card_width"
-                      heading={value.section_name}
                       img={value.file_url}
                       width="100%"
                       bdrradius="zomato1"
+                      heading={value.industry_details[0].name}
                       title={value.title}
-                      contentapi="kotak"
+                      contentapi="premium1"
                       author={value.author_details[0].name}
                       publish={value.publish}
+                      header="headercard"
+                      headerfinance="headerfinancezomato"
                       authorapi="sliderauthor1"
                       publishapi="sliderauthor"
                       dotted="dotapi"
@@ -86,7 +85,6 @@ function Maincards(props) {
                       contentslug="contentapislug"
                       contentauthorslug="contentapislug"
                       contentnameslug="contentapislug"
-                      headerfinance="slidermargin"
                       // premiumcardclass="premium-card"
 
                       // name={value.industry_details[0].name}
@@ -117,7 +115,8 @@ function Maincards(props) {
           </Swiper>
         </div>
       </div>
+      </div>
     </>
   );
 }
-export default Maincards;
+export default Upcoming;

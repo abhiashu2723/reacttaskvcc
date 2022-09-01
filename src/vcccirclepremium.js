@@ -2,12 +2,12 @@ import React from "react";
 
 export default function VcCirclePremium() {
   return (<>
-    <div className="vcccircle">
+    {/* <div className="vcccircle">
       <div className="container">
         <div className="vccircle-upper">
           <div>
             <h2>VCCircle Premium</h2>
-            {/* <span><img src="./images/crown.png" alt="" /></span> */}
+            <span><img src="./images/crown.png" alt="" /></span>
           </div>
           <div>
             <button>subscribe</button>
@@ -49,7 +49,7 @@ export default function VcCirclePremium() {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
 
     <div className="container">
         <div className="upcoming-upper">
