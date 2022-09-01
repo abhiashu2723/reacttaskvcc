@@ -21,7 +21,7 @@ import Footer from './footer';
 // import Cardapi from './cardapi';
 import Skeleton from './skeleton';
 import Vccirclepre from './vccirclepre';
-import Upcoming from './upcoming';
+// import Upcoming from './upcoming';
 // import Premium from './premium';
 
 
