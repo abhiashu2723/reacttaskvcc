@@ -313,7 +313,7 @@ body {
 
 }
 .swiper-button-prev::after{
-  font-size: 15px !important;
+  font-size: 17px !important;
 }
 .swiper-button-next {
   background-color: blue;
@@ -322,7 +322,7 @@ body {
   color:white !important;
 }
 .swiper-button-next::after{
-  font-size: 15px !important
+  font-size: 17px !important
 }
 
 .section p {
@@ -391,6 +391,10 @@ body {
 }
 .vccirclepremiumtittle{
   color: white;
+  font-size: 24px;
+}
+.vccirclepremiumimages{
+  padding: 15px 6px;
 }
 
 /* sudhi section */
@@ -537,6 +541,18 @@ body {
   border-radius: 32px;
   color: #f0f0f0;
   margin: 10px 0px;
+}
+.vccirclepremium-button{
+  background: #096ffa;
+  border: 0px solid;
+  padding: 12px 46px;
+  border-radius: 32px;
+  color: #f0f0f0;
+  margin: 10px 0px;
+}
+.vccirclepremium-uppersection{
+  display: flex;
+  justify-content: space-between;
 }
 .input-text-field input {
   padding: 12px 100px;

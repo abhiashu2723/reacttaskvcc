@@ -18,6 +18,9 @@
   .nav-humbarger {
     display: none;
   }
+  .vccirclepremium-button1{
+    display: none;
+  }
 }
 @media only screen and (min-width: 1199px) and (max-width: 1399px) {
   .container {
@@ -34,6 +37,9 @@
     display: none;
   }
   .nav-humbarger {
+    display: none;
+  }
+  .vccirclepremium-button1{
     display: none;
   }
 }
@@ -55,6 +61,9 @@
   }
   .width-responsive {
     width: 100%;
+  }
+  .vccirclepremium-button1{
+    display: none;
   }
 }
 @media only screen and (min-width: 767px) and (max-width: 991px) {
@@ -177,6 +186,9 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+  .vccirclepremium-button1{
+    display: none;
+  }
 
 }
 @media only screen and (min-width: 575px) and (max-width: 767px) {
@@ -213,12 +225,19 @@
     border-style: none;
     border-radius: 10px;
     text-align: center;
+    
   }
   .hum-res1 {
     display: block;
     list-style: none;
     text-align: start;
     padding-left: 25px;
+    overflow: scroll;
+    height: 100vh;
+  }
+  .humbarger-scroll{
+    overflow: scroll;
+    height: 100vh;
   }
   .hum-res-li {
     margin-left: 0;
@@ -432,6 +451,28 @@
   .upcoming-lower1{
     margin-bottom: 10px;
   }
+  .lower2 h3{
+    font-size: 16px;
+
+  }
+  .lower2 p{
+    font-size: 16px;
+
+  }
+  .vccirclepremium-button1{
+  background: #096ffa;
+  border: 0px solid;
+  padding: 12px 46px;
+  border-radius: 32px;
+  color: #f0f0f0;
+  margin: 10px 0px;
+  }
+  .vccirclepremium-button{
+    display: none;
+  }
+  .vccirclepremium-button1div{
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 340px) and (max-width: 575px) {
   .container {
@@ -442,7 +483,7 @@
     margin-top: 0px;
   }
   .humbargericon{
-    font-size: 25px;
+    font-size: 22px;
   }
   .navbar-height {
     margin-top: 0px;
@@ -473,12 +514,19 @@
     border-style: none;
     border-radius: 10px;
     text-align: center;
+    
   }
   .hum-res1 {
     display: block;
     list-style: none;
     text-align: start;
     padding-left: 25px;
+    overflow: scroll;
+    height: 100vh;
+  }
+  .humbarger-scroll{
+    overflow: scroll;
+    height: 100vh;
   }
   .hum-res-li {
     margin-left: 0;
@@ -581,7 +629,8 @@
     width: 100%;
   }
   .footer-products li {
-    padding: 0px 0px;
+    padding: 3px 4px;
+    
   }
   /* .card {
   flex-wrap: wrap;
@@ -682,6 +731,13 @@
   }
   .footer-products {
     flex-wrap: wrap;
+    font-size:  13px; 
+  }
+  .footer-link{
+    font-size: 13px;
+  }
+  .footer-copy{
+    font-size: 13px;
   }
   /* .storiesimgdiv {
     width: 142px;
@@ -736,6 +792,28 @@
 .vcctv-responsivediv{
   width: 576px;
 }
+.lower2 h3{
+  font-size: 14px;
+
+}
+.lower2 p{
+  font-size: 14px;
+
+}
+.vccirclepremium-button1{
+  background: #096ffa;
+  border: 0px solid;
+  padding: 12px 46px;
+  border-radius: 32px;
+  color: #f0f0f0;
+  margin: 10px 0px;
+  }
+  .vccirclepremium-button{
+    display: none;
+  }
+  .vccirclepremium-button1div{
+    text-align: center;
+  }
 .card-zomato-container1 {
   /* width: 300px; */
 }

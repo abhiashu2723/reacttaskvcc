@@ -43,7 +43,7 @@ export default function Navbar() {
 
                   </div>
                 </div>
-                <div>
+                <div className="humbarger-scroll">
                   <div className={menu ? "hum-res" : "sub-nav"}>
                     <ul className="hum-res1">
                       <li className="hum-nav-li ">Home</li>
