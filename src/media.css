@@ -5,8 +5,8 @@
   }
 
   .advcontainer {
-    margin-left: 50px;
-    margin-right: auto;
+    /* margin-left: 50px;
+    margin-right: auto; */
   }
   .zomato1 {
     width: 100%;
@@ -31,8 +31,8 @@
     width: 1140px;
   }
   .advcontainer {
-    margin-left: 94px;
-    margin-right: auto;
+    /* margin-left: 94px;
+    margin-right: auto; */
   }
   .zomato1 {
     width: 100%;
@@ -282,7 +282,7 @@
     background-color: #ffffff;
     border: 1px solid #f0f0f0;
     margin-bottom: 12px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
   }
   .navbar-box-res {
@@ -572,8 +572,8 @@
   .hum-nav-li {
     background-color: #ffffff;
     border: 1px solid #f0f0f0;
-    margin-bottom: 12px;
-    font-size: 17px;
+    margin-bottom: 15px;
+    font-size: 14px;
     font-weight: 500;
   }
   .navbar-box-res {

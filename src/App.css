@@ -28,8 +28,8 @@ body {
   margin-top: 30px;
 }
 .advcontainer {
-  margin-left: 155px;
-  margin-right: auto;
+  /* margin-left: 155px;
+  margin-right: auto; */
 }
 /* .humbarger{
   display: flex;
@@ -102,7 +102,7 @@ body {
 
 .adv_color {
   background-color: #f0f0f0;
-  padding: 5px 5px;
+  padding: 5px 79px;
 }
 .adv_color h3 {
   text-align: center;
@@ -464,7 +464,7 @@ body {
   margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 5px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .contentapistory h4 {
   margin-top: -19px;
@@ -573,6 +573,7 @@ body {
 
 .vccirclepremium-background {
   background-color: #000000;
+  margin-top: 57px;
 }
 /* vcc */
 .vcctv-container {
@@ -816,7 +817,7 @@ body {
 } */
 .width-responsive {
   margin-top: 10px;
-  /* width: 100%; */
+  width: 100%;
 }
 .swiper-button-next {
   right: 1px;
