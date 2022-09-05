@@ -138,7 +138,9 @@ export default function Navbar() {
                 <li className="nav-list1">
                   <a className="tag" href="/">
                     Industry
+                    <img src="/images/drop-arrow.png" alt="" />
                   </a>
+                 
                 </li>
                 <li className="nav-list1">
                   <a className="tag" href="/">
@@ -160,6 +162,7 @@ export default function Navbar() {
                 <h2>
                   <a className="tag" href="/">
                     customize
+                    <img src="/images/drop-arrow.png" alt="" />
                   </a>{" "}
                 </h2>
               </div>

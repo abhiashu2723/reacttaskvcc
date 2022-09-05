@@ -87,6 +87,10 @@ function Maincards(props) {
                       contentauthorslug="contentapislug"
                       contentnameslug="contentapislug"
                       headerfinance="slidermargin"
+                      buttonhover="authordescriptionsbutton"
+                      buttonhover1="authorhover"
+                      onebutton={value.author_details.length>1? "+1":null}
+                      authorextra={value.author_details.length>1?value.author_details[1].name:""}
                       // premiumcardclass="premium-card"
 
                       // name={value.industry_details[0].name}

@@ -48,6 +48,8 @@ export default function Cardapi(props) {
               <li className={props.authorapi}>{props.author}
                 {/* <button className={props.action}></button> */}
               </li>
+              <li className={props.buttonhover1}>{props.onebutton}</li>
+              <li  className={props.buttonhover}>{props.authorextra}</li>
               </ul>
             </Link>
           </div>

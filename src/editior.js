@@ -26,7 +26,7 @@ export default function Editior(props) {
             {props.value.stories_list[0].title}
             </p>
           <p className="editior-author">
-            <span>{props.author}</span>
+            <span>{props.value.author}</span>
             <span>{props.description}</span>
           </p>
         </div>
