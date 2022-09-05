@@ -66,6 +66,8 @@ export default function Manufacturing(props) {
               author={value.author_details[0].name}
               // publish={value.author_detail[0].name}
               publish={value.publish} 
+              headingslug={value.industry_details[0].slug}
+              imgslug={value.file_url}
               header="headercard"
               headerfinance="headerfinancezomato"
               storiesapi="card-zomato-container"

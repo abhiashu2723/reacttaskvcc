@@ -83,10 +83,13 @@ function Vccirclepre(props) {
                         premium={value.premium}
                         storiesapi="card_width"
                         img={value.file_url}
+                        imgslug={value.file_url}
                         width="100%"
                         bdrradius="zomato2"
                         heading={value.industry_details[0].name}
+                        headingslug={value.industry_details[0].slug}
                         title={value.title}
+                        valuetitleslug={value.title}
                         contentapi="premium1"
                         author={value.author_details[0].name}
                         publish={value.publish}

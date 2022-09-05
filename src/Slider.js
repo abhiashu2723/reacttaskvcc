@@ -73,10 +73,13 @@ function Maincards(props) {
                       storiesapi="card_width"
                       heading={value.section_name}
                       img={value.file_url}
+                      imgslug={value.file_url}
                       contentapi="kotak"
                       width="100%"
                       bdrradius="zomato1"
+                      headingslug={value.industry_details[0].slug}
                       title={value.title}
+                      valuetitleslug={value.title}
                       author={value.author_details[0].name}
                       publish={value.publish}
                       authorapi="sliderauthor1"

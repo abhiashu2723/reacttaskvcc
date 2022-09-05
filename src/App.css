@@ -761,35 +761,8 @@ body {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace; */
 /* } */
-/* .abc1 {
-  border: 1px solid red;
-  background-color: pink;
-  width: 100px;
-  height: 120px;
-}
-.abc {
-  display: flex;
-  background-color: aquamarine;
-  border: 1px solid blue;
-}
-.abc2 {
-  border: 1px solid red;
-  background-color: brown;
-  width: 100px;
-  height: 120px;
-}
-.abc3 {
-  border: 1px solid red;
-  background-color: yellow;
-  width: 100px;
-  height: 120px;
-}
-.abc4 {
-  border: 1px solid red;
-  background-color: green;
-  width: 100px;
-  height: 120px;
-} */
+
+
 .cardimage {
   width: 100px;
   height: 120px;

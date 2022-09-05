@@ -21,22 +21,26 @@ export default function Cardapi(props) {
 
           </div>
           <div className={props.contentapi}>
-            <Link className={props.header}to={props?.headingslug || " "}>
+            
               {/* <h2>{props.heading}</h2> */}
-              <h3 className={props.headerfinance}>{props.heading}</h3>
-            </Link>
+              <h3 className={props.headerfinance}>
+              <Link className={props.header}to={props?.headingslug || " "}>{props.heading}</Link>
+              </h3>
+            
             <Link
               className={props.contentnameslug}
               to={props?.valuenameslug || " "}
             >
               <h4 className={props.headerfinance}>{props.name}</h4>
             </Link>
+            <p className={props.contentapi}>
             <Link
               className={props.contentslug}
-              to={props?.valuetitleslug || " "}
+              to={props?.valuetitleslug || "/ "}
             >
-              <p className={props.contentapi}>{props.title}</p>
+              {props.title}
             </Link>
+              </p>
             <Link
               className={props.contentauthorslug}
               to={props?.valueauthorslug || " "}

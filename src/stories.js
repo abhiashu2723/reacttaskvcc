@@ -20,10 +20,13 @@ export default function Stories(props) {
               imgdiv="storiesimgdiv"
               premium={value.premium}
               img={value.file_url}
+              imgslug={value.file_url}
               bdrradius="storiesimg"
               contentapi="contentapistory"
               name={value.industry_details[0].name}
+              valuenameslug={value.industry_details[0].slug}
               title={value.title}
+              valuetitleslug={value.title}
               author={value.author_details[0].name}
               publish={value.publish}
               authorapi="sliderauthor1"
