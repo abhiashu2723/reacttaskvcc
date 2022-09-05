@@ -156,6 +156,11 @@ body {
 .zomato1 {
   /* width: 250px; */
   height: 150px;
+  border-radius: 8px;
+}
+.zomato2 {
+  /* width: 250px; */
+  height: 150px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -166,11 +171,12 @@ body {
   line-height: 24px;
   margin-bottom: 9px;
   display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: -10px;
 }
-.premium1{
+.premium1 {
   width: 100%;
   font-size: 16px;
   font-weight: 500;
@@ -185,7 +191,6 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
   padding: 6px 0px;
-
 }
 
 /* .card-content-crausal{
@@ -291,6 +296,7 @@ body {
 }
 .editior-author span {
   color: #989a9b;
+  font-size: 12px;
 }
 .section {
   width: 33%;
@@ -307,24 +313,23 @@ body {
 .section1 {
   width: 45%;
 }
-.swiper-button-prev{
+.swiper-button-prev {
   background-color: blue;
   padding: 0px 8px;
   border-radius: 20px;
-  color:white !important;
-
+  color: white !important;
 }
-.swiper-button-prev::after{
+.swiper-button-prev::after {
   font-size: 17px !important;
 }
 .swiper-button-next {
   background-color: blue;
   padding: 0px 8px;
   border-radius: 20px;
-  color:white !important;
+  color: white !important;
 }
-.swiper-button-next::after{
-  font-size: 17px !important
+.swiper-button-next::after {
+  font-size: 17px !important;
 }
 
 .section p {
@@ -359,12 +364,15 @@ body {
 }
 .finance-para span {
   color: #989a9b;
+  font-size: 12px;
 }
 .tmt-para span {
   color: #989a9b;
+  font-size: 12px;
 }
 .consumer-para span {
   color: #989a9b;
+  font-size: 12px;
 }
 /* tmt section */
 .tmt-section {
@@ -391,11 +399,11 @@ body {
   width: 105%;
   border-radius: 9px;
 }
-.vccirclepremiumtittle{
+.vccirclepremiumtittle {
   color: white;
   font-size: 24px;
 }
-.vccirclepremiumimages{
+.vccirclepremiumimages {
   padding: 15px 6px;
 }
 
@@ -544,7 +552,7 @@ body {
   color: #f0f0f0;
   margin: 10px 0px;
 }
-.vccirclepremium-button{
+.vccirclepremium-button {
   background: #096ffa;
   border: 0px solid;
   padding: 12px 46px;
@@ -552,7 +560,7 @@ body {
   color: #f0f0f0;
   margin: 10px 0px;
 }
-.vccirclepremium-uppersection{
+.vccirclepremium-uppersection {
   display: flex;
   justify-content: space-between;
 }
@@ -717,6 +725,7 @@ body {
 .lower2 p {
   margin: 0px 0px;
   font-weight: 400;
+  font-size: 14px;
 }
 .lower2 {
   margin-left: 8px;
@@ -751,7 +760,7 @@ body {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace; */
 /* } */
-.abc1 {
+/* .abc1 {
   border: 1px solid red;
   background-color: pink;
   width: 100px;
@@ -779,7 +788,7 @@ body {
   background-color: green;
   width: 100px;
   height: 120px;
-}
+} */
 .cardimage {
   width: 100px;
   height: 120px;
@@ -876,49 +885,38 @@ body {
   right: 6px;
   top: 105px;
 }
-.card-zomato-container1{
+.card-zomato-container1 {
   position: relative;
 }
-.storiesimgdiv{
+.storiesimgdiv {
   position: relative;
 }
-.card-zomato-container12{
+.card-zomato-container12 {
   position: relative;
 }
-.authordescriptionsbutton{
+.authordescriptionsbutton {
   width: 130px;
   height: auto;
   position: absolute;
-  
+
   right: -5%;
   top: 70%;
   border: 1px solid #f0f0f0;
-  
-  
+
   display: none;
   /* visibility: hidden; */
   /* font-size: px;
   color: #798692; */
   text-align: center;
-
-  
-
-
 }
-.authorhover:hover + .authordescriptionsbutton{
+.authorhover:hover + .authordescriptionsbutton {
   color: blue;
   display: block;
   font-size: 14px;
   color: #798692;
   background: white;
-  
-
-
-
 }
-.authorhover{
+.authorhover {
   font-size: 12px;
   color: #798692;
-  
 }
-

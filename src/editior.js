@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Editior(props) {
   return (<>
-    <div className="container" key={props.value.stories_list.feid}>
+    <div className="container" key={props.value.stories_list[0].feid}>
       
       <div className="editor-section">
 
@@ -26,7 +26,7 @@ export default function Editior(props) {
             {props.value.stories_list[0].title}
             </p>
           <p className="editior-author">
-            <span>{props.value.author}</span>
+            <span>{props.value.stories_list[0].author_details[0].name}</span>
             <span>{props.description}</span>
           </p>
         </div>
@@ -69,7 +69,7 @@ export default function Editior(props) {
                 {props.value.stories_list[1].title}
                 </p>
               <p className="finance-para">
-                <span>{props.author}</span>
+                <span>{props.value.stories_list[1].author_details[0].name}</span>
                 <span>{props.description1}</span>
               </p>
             </div>
@@ -88,7 +88,7 @@ export default function Editior(props) {
                 {props.value.stories_list[2].industry_details[0].name}</h4>
                 <p>{props.tmtdesc}{props.value.stories_list[2].title}</p>
                 <p className="tmt-para">
-                  <span>{props.authortmt}</span>
+                  <span>{props.value.stories_list[2].author_details[0].name}</span>
                   <span>{props.descriptiontmt}</span>
                 </p>
               </div>
@@ -107,7 +107,7 @@ export default function Editior(props) {
                 <h4>{props.consumersec}{props.value.stories_list[3].industry_details[0].name}</h4>
                 <p>{props.consumerdesc}{props.value.stories_list[3].title}</p>
                 <p className="consumer-para">
-                  <span>{props.authorconsumer}</span>
+                  <span>{props.value.stories_list[3].author_details[0].name}</span>
                   <span>{props.descriptionconsumer}</span>
                 </p>
               </div>

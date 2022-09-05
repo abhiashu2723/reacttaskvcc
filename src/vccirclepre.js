@@ -84,7 +84,7 @@ function Vccirclepre(props) {
                         storiesapi="card_width"
                         img={value.file_url}
                         width="100%"
-                        bdrradius="zomato1"
+                        bdrradius="zomato2"
                         heading={value.industry_details[0].name}
                         title={value.title}
                         contentapi="premium1"
@@ -99,6 +99,8 @@ function Vccirclepre(props) {
                         contentslug="contentapislug"
                         contentauthorslug="contentapislug"
                         contentnameslug="contentapislug"
+                        onebutton={value.author_details.length>1? "+1":null}
+                        authorextra={value.author_details.length>1?value.author_details[1].name:""}
                         // premiumcardclass="premium-card"
 
                         // name={value.industry_details[0].name}
